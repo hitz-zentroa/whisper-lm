@@ -111,3 +111,7 @@ This checks for pieces of text that look like interactive Python sessions
 
 If you want to enable the LLM-based tests, ensure you have a GPU and set
 `TEST_LLM=1`, for example:
+
+```bash
+TEST_LLM=1 make test
+```
